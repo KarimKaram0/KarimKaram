@@ -191,7 +191,7 @@ button{
     justify-items: start;
     gap: 40px;
     
-    margin-bottom: ;
+    
 }
 
 .about-us .container-about-us .about-words .all-icons .icons p{
@@ -276,6 +276,101 @@ button{
     border: none;
 }
 
+/*-----------------------end-------------------------*/
+/*------------------starting our main focuc------------*/
+
+.our-services {
+    background-color:hsl(192, 24%, 96%) ;
+    padding: auto;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+
+.our-services .our-services-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.our-services .our-services-head .services-icon{
+    background-color: hsla(9, 100%, 62%, 0.136);
+    color: hsl(9, 100%, 62%);
+    width: 100px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+
+.our-services .our-services-head .our-focuc{
+    font-size: 48px;
+    font-weight: 790;
+}
+
+.our-services .buy-home{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+.our-services .buy-home .buy-home-borde{
+    box-shadow: 0 0 9px 10px rgba(0, 0, 0, 0.118);
+    background-color: white;
+    
+    height: 400px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-services .buy-home .buy-home-borde .buy-home-link a{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.our-services .buy-home .buy-home-borde .buy-home-title{
+    color: rgba(0, 0, 0, 0.334);
+}
+
+
+.our-services .buy-home .buy-home-borde .buy-home-button {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    margin-top: 60px;
+    
+    padding: 0;
+    height: 90%;
+}
+.our-services .buy-home .buy-home-borde .buy-home-button a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    padding: 0;
+    height: 100%;
+    
+    color: rgba(0, 0, 0, 0.333);
+    font-size: 14px;
+}
+
 
 /*----------here is all animations-----------*/
 button:hover{
@@ -286,7 +381,7 @@ button:hover{
     color: rgb(254, 90, 61);
 }
 .container .nav .search i:hover{
-    color: rgb(254, 90, 61);
+    color:rgb(254, 90, 61) ;
 }
 
 .ads1 .ads-about1 .button  :hover{
@@ -302,3 +397,10 @@ button:hover{
     color: black;
     border: 1px solid black;
 }
+
+.our-services .buy-home .buy-home-borde .buy-home-button a:hover{
+    color: black;
+    background-color: rgb(254, 90, 61);
+}
+
+
