@@ -353,7 +353,7 @@ button{
     align-items: start;
     width: 100%;
     margin-top: 60px;
-    
+    transition: all 0.2s;
     padding: 0;
     height: 90%;
 }
@@ -366,7 +366,7 @@ button{
     border: none;
     padding: 0;
     height: 100%;
-    
+    transition: all 0.2s;
     color: rgba(0, 0, 0, 0.333);
     font-size: 14px;
 }
