@@ -1,0 +1,304 @@
+/*---------constants----------*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+a{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+button{
+    
+    padding: 16px 30px;
+    background-color: rgb(254, 90, 61);
+    color: white;
+    
+    transition: all 0.2s;
+}
+
+
+/*-----------end-------------*/
+
+
+/*--------------------------------starting nav------------*/
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    padding:3% 0 ;
+    
+
+}
+
+.container .nav .search {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.container .nav .search i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 40px;
+    box-shadow: 0px 4px 6px 4px rgba(0, 0, 0, 0.044); 
+    transition: all 0.1s;
+}
+
+.container .nav .about  {
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    
+} 
+
+.container .nav .about a{
+    transition: all 0.1s;
+
+}
+/*-----------------------end nav----------------------*/
+/*------------------starting first ads===============*/
+
+.ads1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    height: 700px;
+    background-color: hsl(192, 24%, 96%);
+    
+
+}
+
+
+
+.ads1 .ads-about1 .agency{
+    display: flex;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.ads1 .ads-about1 .agency i{
+    color: rgb(254, 90, 61);
+
+}
+.ads1 .ads-about1 .house-by-us{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 25px 0 0 0px;
+}
+
+.ads1 .ads-about1 .bla {
+
+    font-size: smaller;
+    border-left: 1px solid rgba(0, 0, 0, 0.215);
+    color: rgba(0, 0, 0, 0.384);
+    margin: 25px 0 0 0px;
+}
+
+.ads1 .ads-about1 .bla p {
+    margin-left: 30px;
+
+}
+
+
+.ads1 .ads-about1 .button{
+    margin-top: 40px;
+    
+
+    
+    
+}
+.ads1 .ads-about1 .button button  {
+    border: 1px solid black;
+    padding: 16px 30px;
+    background-color: rgb(254, 90, 61);
+    color: white;
+    
+    transition: all 0.2s;
+}
+.ads1 .ads-about1 .button button a {
+    color: white;
+}
+
+
+.ads1 .home1 img{
+    height: 65vh;
+}
+
+/*----------------end first ads------------------------*/
+
+/*-----------------start about us--------------------*/
+
+.about-us {height: 800px;}
+
+.about-us .container-about-us{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.about-us .container-about-us .about-words .ab-us{
+    background-color: hsla(9, 100%, 62%, 0.136);
+    color: hsl(9, 100%, 62%);
+    width: 100px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+
+.about-us .container-about-us .about-words .real-estate{
+    font-size: 48px;
+    font-weight: 790;
+    margin-bottom: 40px;
+}
+
+
+.about-us .container-about-us .about-words .paragraph{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.464);
+    margin-bottom: 40px;
+}
+
+
+
+.about-us .container-about-us .about-words .all-icons{
+    margin-bottom:40px;
+}
+
+.about-us .container-about-us .about-words .all-icons .icons{
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    gap: 40px;
+    
+    margin-bottom: ;
+}
+
+.about-us .container-about-us .about-words .all-icons .icons p{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:50;
+    color: rgba(0, 0, 0, 0.338);
+}
+.about-us .container-about-us .about-words .all-icons .icons i{
+    padding: 13px;
+    border-radius: 50%;
+    background-color:hsla(9, 100%, 62%, 0.192) ;
+    color: hsl(9, 100%, 62%);
+}
+
+
+.about-us .container-about-us .about-words .all-icons .icons .first-icon , .second-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.about-us .container-about-us .about-words .all-icons .icons .second-icon{
+    margin-left:20px;
+}
+
+/*---------------------------------------------------------------*/
+.about-us .container-about-us .about-words .all-icons .icons2{
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+
+.about-us .container-about-us .about-words .all-icons .icons2 p{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.33);
+}
+.about-us .container-about-us .about-words .all-icons .icons2 i{
+    padding: 13px;
+    border-radius: 50%;
+    background-color:hsla(9, 100%, 62%, 0.192) ;
+    color: hsl(9, 100%, 62%);
+
+}
+
+
+.about-us .container-about-us .about-words .all-icons .icons2 .first-icon2 , .second-icon2 {
+    display: flex;
+    gap: 10px;
+}
+
+/*-----------------------------------------------------------*/
+
+.about-us .container-about-us .about-words .Lorem-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 3px solid rgb(254, 90, 61) ;
+    height: 100px;
+    background-color: rgba(254, 90, 61, 0.047);
+    margin-bottom: 30px;
+}
+    
+
+.about-us .container-about-us .about-words .button-about {
+    margin-top: 20px;
+}
+
+.about-us .container-about-us .about-words .button-about  a button{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.about-us .container-about-us .about-words .button-about a button{
+    padding:18px 35px ;
+    border: none;
+}
+
+
+/*----------here is all animations-----------*/
+button:hover{
+    background-color: white;
+}
+
+.container .nav .about a:hover{
+    color: rgb(254, 90, 61);
+}
+.container .nav .search i:hover{
+    color: rgb(254, 90, 61);
+}
+
+.ads1 .ads-about1 .button  :hover{
+    background-color: whitesmoke;
+}
+
+
+.ads1 .ads-about1 .button button a:hover{
+    color: black;
+}
+
+.about-us .container-about-us .about-words .button-about a button:hover{
+    color: black;
+    border: 1px solid black;
+}
