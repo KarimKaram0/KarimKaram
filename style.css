@@ -403,6 +403,7 @@ button{
 .featured-Listings {
     height: 1000px;
     display: flex;
+    justify-content: space-evenly;
     gap: 10px;
     scroll-padding-right: 50px;
 }
