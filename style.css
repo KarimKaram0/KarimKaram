@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     font-family:sans-serif;
+    /* outline: auto; */
 }
 
 a{
@@ -651,32 +652,51 @@ button:hover{
     width: 80px;
 }
 
+
+
+
 .featured-Listings .img-list .list img:hover{
     height: 110%;
     width: 110%;
 }
-
+/* .container .nav .search-banner {
+    position: relative;
+    cursor: pointer;
+} */
+/* .container .nav .search-banner .search-list  {
+    display: none;
+    } */
 .container .nav .search-banner:hover{
-    display: flex;
+    position: relative;
     justify-content: start;
     flex-direction: column;
     align-items: start;
     background-color: azure;
-
+    color: black;
     gap: 20px;
-    width: 100px;
-    height: 600px;
+    width: 400px;
+    height: 200px;
 }
 
-.container .nav .search-banner .search-list  :hover{
+/* .container .nav .search-banner .search-list  {
+    color: black;
+    background-color: blue;
+} */
+/* .container .nav .search-banner .search-list a,i{
+    color: black;
+} */
+.container .nav .search-banner .search-list :hover{
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 150px;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
+    z-index: 100;
+    border: 1px solid black;
     color: black;
+    background-color: red;
+    position: absolute;
 }
 
 /* .container .nav .search-banner .search-list :hover{
@@ -694,25 +714,20 @@ button:hover{
 
 
 /* ------------start media---------- */
-.container .nav .search-banner {
-    position: relative;
-}
-.container .nav .search-banner , .search-list {
-    display: none;
-    }
 
 
 @media(max-width:1200px)
 {
+    
     .ads1{
-        height: 1602px;
-        width: 40%;
+        height: 971px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
     .about-us{
-        height: 1602px;
-        width: 40%;   
+        height: 1431px;
+        width: 100%;   
     }
     .about-us .container-about-us{
         display: flex;
@@ -721,10 +736,9 @@ button:hover{
 
     .container .nav{
         display:flex ;
-        justify-content: start;
-        align-items: start;
-        flex-direction: column;
-        gap: 30px;
+        justify-content: space-between;
+        
+        
 
     }
 
@@ -759,19 +773,88 @@ button:hover{
 .container .nav .about{
     display: none;
 }
+
+.our-services{
+        height: 1058px;
+
+}
+
+
+.our-services .buy-home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.featured-Listings .img-list{
+    width: 40%;
+}
+
+.featured-Listings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
 }
 
 @media(max-width:992px)
 {
     
+    .featured-Listings .img-list{
+        width: 47%;
+    }
 }
+
+@media(max-width:900px)
+{
+    
+    .our-services{
+        height: 100%;
+    }
+    .featured-Listings .img-list{
+        width: 58%;
+    }
+}
+
+
+
+@media(max-width:809px)
+{
+    
+    .featured-Listings .img-list{
+        width: 64%;
+    }
+}
+
+
+@media(max-width:765px)
+{
+    
+    .featured-Listings .img-list{
+        width: 64%;
+    }
+}
+
+@media(max-width:605px)
+{
+    
+    .featured-Listings .img-list{
+        width: 83%;
+    }
+}
+
 
 @media(max-width:565px)
 {
-    
+    .featured-Listings .img-list{
+        width: 91%;
+    }
 }
 
-@media(max-width:420px)
+@media(max-width:471px)
 {
-    
+    .featured-Listings .img-list{
+        width: 100%;
+    }
 }
