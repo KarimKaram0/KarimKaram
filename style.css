@@ -4,8 +4,12 @@
     margin: 0;
     font-family:sans-serif;
     /* outline: auto; */
+    transition: all 0.5s ;
+    
 }
-
+li{
+    list-style: none;
+}
 a{
     
     font-size: 20px;
@@ -625,7 +629,321 @@ width: 100%;}
     flex-direction: row;
 }
 
+
+.Aminities{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(192, 24%, 96%);
+    
+}
+
+.Aminities .box-Aminities{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 3%;
+    
+}
+
+.Aminities .Our-Aminities{
+    width: 7%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(254, 90, 61, 0.16);
+    color: rgb(254, 90, 61);
+    margin-top: 50px ;
+}
+.Aminities .Building-Aminities {
+    padding-top: 3%;
+    font-size: 48px;
+    font-weight: 790;
+}
+
+
+
+.box-Aminities .Aminities-borde {
+    box-shadow: 0 0 15px 1px #0000002c;
+    border-radius: 25px;
+    padding: 118px 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 56px 35px;
+    font-size: 39px;
+    transition: all 0.6s;
+}
+
+.box-Aminities .Aminities-borde .parking{
+    font-size: 29px;
+    font-weight: 700;
+}
+.box-Aminities .Aminities-borde .Aminities-icon{
+    margin-top: -18px;
+    padding-bottom: 26px;
+}
+
+.box-Aminities .Aminities-borde .Aminities-icon .parking{
+    padding-top: 100px
+}
+
+.box-Aminities .Aminities-borde .Aminities-icon i{
+    border-radius: 50%;
+    padding: 30px 30px;
+    margin-left: 3;
+    background-color: rgba(254, 90, 61, 0.16);
+    color: rgb(254, 90, 61);
+}
+
+.box-Aminities .Aminities-link{
+    position: absolute;
+    text-align: center;
+    padding-top: 16%;
+    
+}
+
+
+
+.box-Aminities .Aminities-link a{
+    border-radius: 50%;
+    box-shadow: 0 0 15px 1px #0000002c;
+    background-color: white;
+    padding:8px 8px ;
+}
+.box-Aminities .Aminities-link i{
+
+    color: rgba(0, 0, 0, 0.195);
+    overflow: hidden;
+    
+}
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+.news .news-blogs{
+    width: 7%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(254, 90, 61, 0.16);
+    color: rgb(254, 90, 61);
+    margin-top: 50px ;
+}
+
+.news .leates{
+    font-size: 48px;
+    font-weight: 790;
+}
+
+.Leatest-News-Feeds .new-box .new-ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 30px;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box{
+    width:25%;
+    height: 100%;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.421);
+    
+    
+
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .box-img{
+    overflow: hidden;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box img{
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-info{
+    display: flex;
+    justify-content: start;
+    gap: 10%;
+    padding: 16px 0 ;
+    padding-left: 19px;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-info .admin{
+    display: flex;
+    
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-info .admin i{
+    color: rgb(254, 90, 61);
+    padding-right:6px;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-info .interior{
+    display: flex;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-info .interior i{
+    color: rgb(254, 90, 61);
+    padding-right:6px;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-p{
+    font-size: 26px;
+    font-weight: 790;
+    display: flex;
+    padding-left: 17px;
+    padding-bottom: 18px;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date{
+    display: flex;
+    flex-direction: row;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .date{
+    display: flex;
+    flex-direction: row;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .read-me{
+    display: flex;
+    flex-direction: row;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding: 19px 0 ;
+    padding-left: 19px;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date p{
+    padding-right: 10px;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .date{
+    display: flex;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .date i{
+    color: rgb(254, 90, 61);
+    padding-right:6px;
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .read-me{
+    display: flex;
+}
+.Leatest-News-Feeds .new-box .new-ads .home-box .blog-date .read-me i{
+    color: rgb(254, 90, 61);
+    padding-right:6px;
+}
+
+
+.Leatest-News-Feeds .new-box .looking{
+    width: 70%;
+    height: 170px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin: auto;
+    position: absolute;
+    left:16%;
+    transition: all 1.5s;
+    
+}
+.Leatest-News-Feeds .new-box .looking .looking-borde a{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.Leatest-News-Feeds .new-box .looking .explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    width: 20%;
+    height: 38%;
+    transition: all 0.5s;
+    /* padding: 18px 0px; */
+    background-color: white;
+}
+
+
+footer{
+    height: 800px;
+    background-color: hsl(227, 29%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 50%;
+    
+}
+
+footer .footer ul{
+    font-size: 23px;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footer .Company , .Services , .CustomerCare{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20%;
+    
+}
+footer .media{
+    color: rgb(254, 90, 61);
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 80%;
+    padding-top:5% ;
+    padding-right: 50%;
+}
 /*----------here is all animations-----------*/
+
+.Leatest-News-Feeds .new-box  .looking   :hover{
+    
+    background-color: black;
+    color: white;
+    
+    
+    
+}
+.Leatest-News-Feeds .new-box  .looking .explore :hover{
+/* width: 20%; */
+display: none;
+
+}
+
+.Leatest-News-Feeds .new-box .new-ads .home-box .box-img  :hover{
+    transform: scale(1.5);
+}
+
 button:hover{
     background-color: white;
 }
@@ -648,7 +966,6 @@ button:hover{
 
 .about-us .container-about-us .about-words .button-about a button:hover{
     color: black;
-    border: 1px solid black;
 }
 
 .our-services .buy-home .buy-home-borde .buy-home-button a:hover{
@@ -663,8 +980,9 @@ button:hover{
 
 
 
+
 .featured-Listings .img-list .list img:hover{
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
 /* .container .nav .search-banner {
     position: relative;
@@ -673,30 +991,13 @@ button:hover{
 .container .nav .search-banner  {
     display: none;
     }
+    
 
-
-/* .container .nav .search-banner .search-list  {
-    color: black;
-    background-color: blue;
-} */
-/* .container .nav .search-banner .search-list a,i{
-    color: black;
-} */
-
-
-/* .container .nav .search-banner .search-list :hover{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    border: 1px solid black;
-    width: 100px;
-    height: 600px;
-    position: absolute;
-    z-index: 100;
-} */
-
+.Aminities-box .Aminities .box-Aminities :hover{
+        background-color: rgb(254, 90, 61);
+        color: white;
+        transform: scale(1.1);
+    }
 
 /* ------------start media---------- */
 
